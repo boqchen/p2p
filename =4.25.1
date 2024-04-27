@@ -1,0 +1,31 @@
+Collecting transformers
+  Using cached transformers-4.40.1-py3-none-any.whl.metadata (137 kB)
+Requirement already satisfied: filelock in /usr/itetnas04/data-scratch-01/bochen/data/conda_envs/diffuser/lib/python3.8/site-packages (from transformers) (3.13.1)
+Collecting huggingface-hub<1.0,>=0.19.3 (from transformers)
+  Using cached huggingface_hub-0.22.2-py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: numpy>=1.17 in /usr/itetnas04/data-scratch-01/bochen/data/conda_envs/diffuser/lib/python3.8/site-packages (from transformers) (1.24.3)
+Requirement already satisfied: packaging>=20.0 in /usr/itetnas04/data-scratch-01/bochen/data/conda_envs/diffuser/lib/python3.8/site-packages (from transformers) (24.0)
+Requirement already satisfied: pyyaml>=5.1 in /usr/itetnas04/data-scratch-01/bochen/data/conda_envs/diffuser/lib/python3.8/site-packages (from transformers) (6.0.1)
+Requirement already satisfied: regex!=2019.12.17 in /usr/itetnas04/data-scratch-01/bochen/data/conda_envs/diffuser/lib/python3.8/site-packages (from transformers) (2024.4.16)
+Requirement already satisfied: requests in /usr/itetnas04/data-scratch-01/bochen/data/conda_envs/diffuser/lib/python3.8/site-packages (from transformers) (2.31.0)
+Collecting tokenizers<0.20,>=0.19 (from transformers)
+  Using cached tokenizers-0.19.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.7 kB)
+Requirement already satisfied: safetensors>=0.4.1 in /usr/itetnas04/data-scratch-01/bochen/data/conda_envs/diffuser/lib/python3.8/site-packages (from transformers) (0.4.3)
+Requirement already satisfied: tqdm>=4.27 in /usr/itetnas04/data-scratch-01/bochen/data/conda_envs/diffuser/lib/python3.8/site-packages (from transformers) (4.66.2)
+Collecting fsspec>=2023.5.0 (from huggingface-hub<1.0,>=0.19.3->transformers)
+  Using cached fsspec-2024.3.1-py3-none-any.whl.metadata (6.8 kB)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/itetnas04/data-scratch-01/bochen/data/conda_envs/diffuser/lib/python3.8/site-packages (from huggingface-hub<1.0,>=0.19.3->transformers) (4.9.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /usr/itetnas04/data-scratch-01/bochen/data/conda_envs/diffuser/lib/python3.8/site-packages (from requests->transformers) (2.0.4)
+Requirement already satisfied: idna<4,>=2.5 in /usr/itetnas04/data-scratch-01/bochen/data/conda_envs/diffuser/lib/python3.8/site-packages (from requests->transformers) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/itetnas04/data-scratch-01/bochen/data/conda_envs/diffuser/lib/python3.8/site-packages (from requests->transformers) (2.1.0)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/itetnas04/data-scratch-01/bochen/data/conda_envs/diffuser/lib/python3.8/site-packages (from requests->transformers) (2024.2.2)
+Using cached transformers-4.40.1-py3-none-any.whl (9.0 MB)
+Using cached huggingface_hub-0.22.2-py3-none-any.whl (388 kB)
+Using cached tokenizers-0.19.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.6 MB)
+Using cached fsspec-2024.3.1-py3-none-any.whl (171 kB)
+Installing collected packages: fsspec, huggingface-hub, tokenizers, transformers
+  Attempting uninstall: huggingface-hub
+    Found existing installation: huggingface-hub 0.0.8
+    Uninstalling huggingface-hub-0.0.8:
+      Successfully uninstalled huggingface-hub-0.0.8
+Successfully installed fsspec-2024.3.1 huggingface-hub-0.22.2 tokenizers-0.19.1 transformers-4.40.1
